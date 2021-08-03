@@ -52,18 +52,5 @@
 <br>
 <button class="button button2" name="back" value='back'>Backward</button>
 </div> </form> 
-<script>
-  window.watsonAssistantChatOptions = {
-      integrationID: "35e819a5-d05f-44ec-8aec-45bd7bd7cf20", // The ID of this integration.
-      region: "eu-gb", // The region your integration is hosted in.
-      serviceInstanceID: "a5788071-7846-44c6-8471-09c37859278a", // The ID of your service instance.
-      onLoad: function(instance) { instance.render(); }
-    };
-  setTimeout(function(){
-    const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
-    document.head.appendChild(t);
-  });
-</script>
 </body>
 </html>
